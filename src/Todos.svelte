@@ -29,6 +29,19 @@
                 <input class="inner-container-input" type="checkbox" on:change={checkAllTodos}>Check All
             </label>
         </div>
-        <div>{todosRemaining}</div>
+        <div>
+            {todosRemaining} items left
+        </div>
+    </div>
+
+    <div class="inner-container">
+        <div>
+            <button on:click={() => updateFilter('all')} class:active="{currentFiler === 'all'}">All</button>
+            <button on:click={() => updateFilter('active')} class:active="{currentFiler === 'active'}">Active</button>
+            <button on:click={() => updateFilter('completed')} class:active="{currentFiler === 'completed'}">Completed</button>
+        </div>
+        <div>
+            <button on:click={clearCompleted}>Clear Completed</button>
+        </div>
     </div>
 </div>
