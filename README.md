@@ -28,3 +28,5 @@ the server will be running on :
 ### ScreenShoot
 
 ![Dashboard](captured/screen_1.png "This Get Posts captured")
+
+![Dashboard](captured/screen_2.png "This Get Posts captured")
