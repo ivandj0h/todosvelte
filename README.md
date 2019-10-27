@@ -20,3 +20,8 @@ and then run :
 to start the development server & watch for changes and continually rebuild the package, you can run :
 
     npm run dev
+
+the server will be running on :
+
+    http://localhost:5000
+
