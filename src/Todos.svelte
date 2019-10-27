@@ -60,7 +60,7 @@
     .logo {
         display: block;
         margin: 20px auto;
-        width: 50%;
+        width: 20%;
     }
     .todo-input {
         width: 100%;
@@ -97,7 +97,7 @@
 </style>
 
 <div class="container">
-    <img src={'/img/logo_id.png'} alt="IvanDjoh's Logo">
+    <!-- <img src={'/img/logo_id.png'} alt="IvanDjoh's Logo"> -->
 
     <h3>TodoSvelte</h3>
     <input type="text" class="todo-input" placeholder="Insert Todo Item..." bind:value={newTodoTitle} on:keydown={addTodo}>
