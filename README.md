@@ -25,3 +25,6 @@ the server will be running on :
 
     http://localhost:5000
 
+### ScreenShoot
+
+![Dashboard](captured/screen_1.png "This Get Posts captured")
